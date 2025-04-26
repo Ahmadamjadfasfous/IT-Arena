@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Arena - Show Off Your Code</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      color: #00ffc3;
+      text-shadow: 0 0 10px #00ffc3;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+      max-width: 600px;
+      margin-bottom: 2em;
+    }
+
+    .btn-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .btn {
+      background: #1a1a1a;
+      color: #00ffc3;
+      padding: 15px 30px;
+      border: 1px solid #00ffc3;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #00ffc3;
+      color: #000;
+    }
+
+    .hint {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #555;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <h1>IT Arena</h1>
+  <p>Build. Share. Flex your tech. Whether it’s smart or just plain stupid — it belongs here.</p>
+
+  <div class="btn-container">
+    <button class="btn" onclick="location.href='select-net.html'">Login / Sign Up</button>
+    <button class="btn" onclick="alert('Explore page coming soon!')">Explore as Guest</button>
+  </div>
+
+  <div class="hint">
+    <p>Points? No one knows what they’re for. But they’re yours.</p>
+  </div>
+</body>
+</html>
